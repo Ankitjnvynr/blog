@@ -227,7 +227,7 @@ echo $statusMsg;
     </script>
 	<script>
 		dels = document.getElementsByClassName('del');
-		Array.from(dels).forEach((element),={
+		Array.from(dels).forEach((element){
 			element.addEventListner("click",(e)=>{
 				console.log(element);
 			})
